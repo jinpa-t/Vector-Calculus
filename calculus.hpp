@@ -2,8 +2,10 @@
  * file: calculus.hpp
  * Author: Jinpa Tsering
  * Date: 6/17/2022
- * Description: Definition of Course class which is responsible
- *              for handling Course details and methods.
+ * Description: File contains.
+ *              Calculus namespace definition,
+ *              Point3D definition and operators,
+ *              vector functions are defined here.
 */
 
 #ifndef CALCULUS_HPP
@@ -99,6 +101,7 @@ namespace calculus{
         return (((p.y*q.z)-(p.z*q.y))+((p.x*q.z)-(p.z*q.x))+((p.x*q.y)-(p.y*q.x)));
     }
     
+    // distance is same as magnitude
     double distance(const Point3D &p,const Point3D &q ) {
         return sqrt(pow((q.x - p.x),2) + pow((q.y - p.y),2) + pow((q.z - p.z),2));
     }
