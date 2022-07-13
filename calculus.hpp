@@ -82,7 +82,7 @@ namespace calculus{
     /**
      * Dot product of two vector.
      *
-     * @param values Container whose values are summed.
+     * @param values Container whose values are multiplied.
      * @return new vector with respective `values` multiplied.
     */
     Point3D dotProductVectorProduct(const Point3D &p, const Point3D &q) { 
